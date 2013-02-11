@@ -13,7 +13,6 @@
 #required by ovaldi (argument)
 =app-forensics/ovaldi-5.10.1.4 ~x86
 
-
 net-analyzer/metasploit:4.4 ~x86
 #required by net-analyzer/metasploit-4.4.0-r1, required by metasploit (argument)
 =dev-ruby/msgpack-0.4.7 ~x86
@@ -31,4 +30,9 @@ net-analyzer/metasploit:4.4 ~x86
 =app-crypt/chntpw-110511 ~x86
 #required by app-crypt/ophcrack (argument)
 =app-crypt/ophcrack-3.4.0 ~x86
+
+#required by app-crypt/hashcat-gui (argument)
+=app-crypt/hashcat-gui-0.5.1 ~x86
+#required by app-crypt/hashcat-gui-0.5.1, required by app-crypt/hashcat-gui (argument)
+=app-crypt/hashcat-bin-0.42 ~x86
 

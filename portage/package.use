@@ -25,3 +25,5 @@
 >=gnome-base/libgnomecanvas-2.30.3 glade
 
 =x11-libs/gtk+-3.4.4 X
+
+virtual/opencl video_cards_fglrx video_cards_nvidia

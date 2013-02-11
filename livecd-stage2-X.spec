@@ -94,16 +94,16 @@ boot/kernel/gentoo/packages:
 #	sys-apps/pcmciautils
 
 livecd/unmerge:
-	app-admin/eselect
-	app-admin/eselect-ctags
-	app-admin/eselect-vi
+#	app-admin/eselect
+#	app-admin/eselect-ctags
+#	app-admin/eselect-vi
 	app-admin/perl-cleaner
 	app-admin/python-updater
 	app-arch/cpio
 #	dev-libs/gmp
 #	dev-libs/libxml2
 	dev-libs/mpfr
-	dev-python/pycrypto
+#	dev-python/pycrypto
 	dev-util/pkgconfig
 	perl-core/PodParser
 	perl-core/Test-Harness

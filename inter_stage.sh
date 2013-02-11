@@ -8,5 +8,9 @@ TMPDIR=/var/tmp/catalyst/tmp/default/livecd-stage1-x86-0.1
 #cat $TMPDIR/etc/init.d/autoconfig | grep -v "xdm)" > $TMPDIR/etc/init.d/.autoconfig
 #mv $TMPDIR/etc/init.d/.autoconfig $TMPDIR/etc/init.d/autoconfig
 
+# copy backtrack pentest toolbox
 cp -r /pentest $TMPDIR
 cp  /etc/catalyst/forensics/test-ldd.sh $TMPDIR/root
+
+# copy xfce4 small config
+cp -r .config $TMPDIR/root
