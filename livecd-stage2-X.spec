@@ -92,6 +92,11 @@ boot/kernel/gentoo/packages:
 ##	net-dialup/fritzcapi
 ##	net-dialup/fcdsl
 #	sys-apps/pcmciautils
+        # NVIDIA
+        dev-util/nvidia-cuda-sdk
+        dev-util/nvidia-cuda-toolkit
+        # ATI
+        virtual/opencl
 
 livecd/unmerge:
 #	app-admin/eselect

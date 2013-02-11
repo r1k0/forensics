@@ -186,11 +186,6 @@ livecd/packages:
 	app-crypt/ophcrack
 	app-crypt/hashcat-gui
 	virtual/jdk
-	# NVIDIA
-	dev-util/nvidia-cuda-sdk
-	dev-util/nvidia-cuda-toolkit
-	# ATI
-	virtual/opencl 
 
 	# forensics only
         app-forensics/afflib
