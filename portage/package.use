@@ -1,0 +1,27 @@
+#required by www-client/firefox-17.0.2, required by www-client/firefox (argument)
+=dev-lang/python-2.7.3-r2 sqlite
+#required by x11-wm/enlightenment-1.0.11, required by enlightenment (argument)
+>=media-libs/imlib2-1.4.5 X
+#required by app-text/gnome-doc-utils-0.20.10, required by gnome-base/gdm-2.20.11-r1, required by x11-themes/gdm-themes-livecd-2007.0, required by x11-themes/gdm-themes-livecd (argument)
+=dev-libs/libxml2-2.8.0-r3 python
+#required by www-client/firefox-17.0.2, required by www-client/firefox (argument)
+=x11-libs/pango-1.30.1 X
+#required by net-print/cups-1.5.2-r4, required by net-print/cups (argument)
+=app-text/ghostscript-gpl-9.05-r1 cups
+#required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13, required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
+>=media-libs/mesa-9.0.1 xa
+#required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13, required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
+>=x11-libs/libdrm-2.4.40 libkms
+#required by virtual/udev-197, required by x11-base/xorg-server-1.13.1[udev], required by x11-drivers/xf86-video-glint-1.2.8, required by x11-base/xorg-drivers-1.13
+=sys-fs/udev-197-r4 gudev
+#required by gnome-base/gvfs-1.12.3[udev], required by xfce-base/thunar-1.4.0[dbus,xfce_plugins_trash], required by thunar (argument)
+>=virtual/udev-197 gudev
+#required by www-client/firefox-17.0.2, required by www-client/firefox (argument)
+=x11-libs/cairo-1.10.2-r3 X
+#required by www-client/firefox-17.0.2, required by www-client/firefox (argument)
+=media-libs/libpng-1.5.13-r1 apng
+
+#required by net-analyzer/etherape-0.9.12, required by net-analyzer/etherape (argument)
+>=gnome-base/libgnomecanvas-2.30.3 glade
+
+=x11-libs/gtk+-3.4.4 X

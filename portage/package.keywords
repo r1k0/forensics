@@ -1,0 +1,34 @@
+#required by unhide (argument)
+=app-forensics/unhide-20121229 ~x86
+#required by rdd (argument)
+=app-forensics/rdd-2.0.7 ~x86
+#required by yasat (argument)
+=app-forensics/yasat-526 ~x86
+#required by zzuf (argument)
+=app-forensics/zzuf-0.13-r1 ~x86
+#required by scalpel (argument)
+=app-forensics/scalpel-2.0 ~x86
+#required by openscap (argument)
+=app-forensics/openscap-0.9.3-r1 ~x86
+#required by ovaldi (argument)
+=app-forensics/ovaldi-5.10.1.4 ~x86
+
+
+net-analyzer/metasploit:4.4 ~x86
+#required by net-analyzer/metasploit-4.4.0-r1, required by metasploit (argument)
+=dev-ruby/msgpack-0.4.7 ~x86
+#required by net-analyzer/metasploit-4.4.0-r1, required by metasploit (argument)
+=dev-ruby/kissfft-0.0.1 ~x86
+
+#required by net-analyzer/netdiscover (argument)
+=net-analyzer/netdiscover-0.3_beta6-r3 ~x86
+#required by net-analyzer/sslsniff (argument)
+=net-analyzer/sslsniff-0.8-r1 ~x86
+
+#required by app-crypt/ophcrack-tables (argument)
+=app-crypt/ophcrack-tables-1.0-r1 ~x86
+#required by app-crypt/chntpw (argument)
+=app-crypt/chntpw-110511 ~x86
+#required by app-crypt/ophcrack (argument)
+=app-crypt/ophcrack-3.4.0 ~x86
+
