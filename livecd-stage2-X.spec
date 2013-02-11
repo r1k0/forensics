@@ -92,11 +92,6 @@ boot/kernel/gentoo/packages:
 ##	net-dialup/fritzcapi
 ##	net-dialup/fcdsl
 #	sys-apps/pcmciautils
-        # NVIDIA
-        dev-util/nvidia-cuda-sdk
-        dev-util/nvidia-cuda-toolkit
-        # ATI
-        virtual/opencl
 
 livecd/unmerge:
 #	app-admin/eselect
@@ -140,8 +135,9 @@ livecd/unmerge:
 #	sys-libs/gdbm
 	sys-libs/libkudzu
 	sys-kernel/genkernel
+	sys-kernel/gentoo-sources
 	sys-kernel/linux-headers
-	gentoolkit
+	app-portage/gentoolkit
 
 livecd/empty:
 	/etc/cron.daily
@@ -168,7 +164,7 @@ livecd/empty:
 	/usr/lib/X11/etc
 	/usr/lib/awk
 	/usr/lib/ccache
-	/usr/lib/gcc-config
+#	/usr/lib/gcc-config
 	/usr/lib/gconv
 	/usr/lib/nfs
 	/usr/lib/perl5/site_perl
@@ -181,7 +177,7 @@ livecd/empty:
 	/usr/lib64/X11/etc
 	/usr/lib64/awk
 	/usr/lib64/ccache
-	/usr/lib64/gcc-config
+#	/usr/lib64/gcc-config
 	/usr/lib64/gconv
 	/usr/lib64/nfs
 	/usr/lib64/perl5/site_perl
@@ -202,7 +198,7 @@ livecd/empty:
 	/usr/share/doc
 	/usr/share/emacs
 	/usr/share/et
-	/usr/share/gcc-data
+#	/usr/share/gcc-data
 	/usr/share/genkernel
 	/usr/share/gettext
 	/usr/share/glib-2.0
@@ -241,7 +237,7 @@ livecd/rm:
 	/etc/default/audioctl
 	/etc/dispatch-conf.conf
 	/etc/env.d/05binutils
-	/etc/env.d/05gcc
+#	/etc/env.d/05gcc
 	/etc/etc-update.conf
 	/etc/hosts.bck
 	/etc/issue*
@@ -277,7 +273,7 @@ livecd/rm:
 	/usr/bin/f77
 	/usr/bin/g++*
 	/usr/bin/g77
-	/usr/bin/gcc*
+#	/usr/bin/gcc*
 	/usr/bin/genkernel
 	/usr/bin/gprof
 	/usr/bin/i?86-gentoo-linux-uclibc-*
@@ -305,7 +301,7 @@ livecd/rm:
 	/usr/lib*/*.a
 	/usr/lib*/*.la
 	/usr/lib*/perl5/site_perl
-	/usr/lib*/gcc-lib/*/*/libgcj*
+#	/usr/lib*/gcc-lib/*/*/libgcj*
 	/usr/sbin/archive-conf
 	/usr/sbin/dispatch-conf
 	/usr/sbin/emaint
