@@ -24,6 +24,7 @@ livecd/use:
 	static-libs
 	unicode
 	xml
+	X
 
 livecd/packages:
 	app-accessibility/brltty
